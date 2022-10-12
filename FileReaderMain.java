@@ -5,7 +5,7 @@ public class FileReaderMain {
 		System.out.println("Displaying file normally: \n");
 		TxtFileReaderNormal reader = new TxtFileReaderNormal();
 		var content = reader.Read("TxtDocuments/document1.txt");
-		System.out.println(content + "\n");
+		System.out.println(content + "\n\n");
 		
 		System.out.println("Displaying file in reverse by lines: \n");
 		TxtFileReaderReverse reverseReader = new TxtFileReaderReverse();
